@@ -1,18 +1,18 @@
 #! /usr/bin/env python
 
-#######################################################################
-# author				: Sergio Sanchez																			#
-# date_created	: 2015-07-28																					#
-# email					: ssanchez@epes.es																		#
-# modified			: 2015-07-30																					#
-#######################################################################
+############################################
+# author				: Sergio Sanchez
+# date_created			: 2015-07-28
+# email					: ssanchez@epes.es
+# modified				: 2015-07-30
+############################################
 
 import subprocess
 import time
 
 #######################################################################
-# getvdis: 	is a function that return a set on string that represent  #
-# 					all vdi differential disk from VMs in this xenserver pool #
+# getvdis: 	is a function that return a set on string that represent
+# all vdi differential disk from VMs in this xenserver pool
 #######################################################################
 
 def getvdis():
@@ -32,9 +32,9 @@ def getvdis():
 
 
 #######################################################################
-# deleteDifferentialVdis:	is a function that delete all differential  #
-#						vdis that xenserver don't remove automatically and are    #
-#						not assigned to a VM (vbd-uuids is null)									#
+# deleteDifferentialVdis:	is a function that delete all differential
+#  vdis that xenserver don't remove automatically and are
+#  not assigned to a VM (vbd-uuids is null)						
 #######################################################################
 
 def deleteDifferentialVdis(vdiName, logfile):
