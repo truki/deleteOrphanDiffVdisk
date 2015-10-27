@@ -1,12 +1,5 @@
 #! /usr/bin/env python
 
-############################################
-# author		: Sergio Sanchez
-# date_created	: 2015-07-28
-# email			: trukise@gmail.com
-# modified		: 2015-07-30
-############################################
-
 import subprocess
 import time
 
