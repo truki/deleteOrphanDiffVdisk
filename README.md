@@ -22,7 +22,7 @@ Installation
 
 Put this script in some folder inside XenServer Operating System, and scheduled in using cron as you want.
 
-Example:
+Example (as you see, i put the script inside root folder):
 ```
 # delete orphan diff at 08:30
 30 8 * * * root /root/deleteOrphanDiffVdisk.py
